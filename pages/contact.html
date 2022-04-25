@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Connect Bootstrap online -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>Shopping Site</title>
+    <!--web-icon------------------->
+    <link href="../images/logo.png" rel="shortcut icon" />
+    <!--stylesheet-------------------->
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../css/style-addon.css" />
+    <!--FontAwesome-------->
+    <script
+      crossorigin="anonymous"
+      src="https://kit.fontawesome.com/70a642cd7c.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <button
+          class="btn"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBackdrop"
+          aria-controls="offcanvasWithBackdrop"
+        >
+          <span class="fas fas fa-align-justify"></span>
+        </button>
+
+        <div class="logo">
+          <a href="#"><img src="../images/logo.png" /></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav bar v2.0 -->
+
+    <div class="offcanvas-container">
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasWithBackdrop"
+        aria-labelledby="offcanvasWithBackdropLabel"
+      >
+        <div class="offcanvas-header">
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="offcanvas-content">
+            <div>
+              <img src="../images/logo.png" alt="" />
+            </div>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./shop.html">Shop</a></li>
+              <li><a href="./news.html">News</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- nav bar v2.0 -->
+
+    <!-- header -->
+    <section class="header px-3 mb-5 d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <h1>Contact <span class="highlight">Mioshio</span></h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="container contact-container">
+      <div class="contact-form border">
+        <div class="d-flex align-items-center">
+          <div class="d-flex flex-column p-5">
+            <div class="logo my-2 px-3">
+              <img src="../images/logo.png" alt="logo" />
+            </div>
+            <p class="px-3">
+              Jl. Sultan Mahmud Badarudin, 19 Ilir, Kec. Bukit Kecil, Kota
+              Palembang, Sumatera Selatan 30113
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex align-items-center">
+                <span class="fs-5 mx-2 fab fa-facebook-f"></span>
+                <span>Mioshio Store</span>
+              </li>
+              <li class="list-group-item d-flex align-items-center">
+                <span class="fs-5 mx-2 fab fa-instagram"></span>
+                <span>@mioshio.store</span>
+              </li>
+              <li class="list-group-item d-flex align-items-center">
+                <span class="fs-5 mx-2 fab fa-youtube"></span>
+                <span>Mioshio Official</span>
+              </li>
+              <li class="list-group-item d-flex align-items-center">
+                <span class="fs-5 mx-2 fab fa-whatsapp"></span>
+                <span>+62 784 9191 288</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div class="p-5 bg-dark text-white">
+            <h3 class="border p-3 mb-3 text-center">Leave us Message</h3>
+            <form class="form-wrapper border p-3">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary d-block mx-auto px-5"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7968.7707346189145!2d104.76317034356963!3d-2.990393496495699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e39a8c8ef9f77b9%3A0xe9460928bfb845a5!2sJembatan%20Ampera!5e0!3m2!1sid!2sid!4v1650673686483!5m2!1sid!2sid"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- news section -->
+
+    <!-- subscribe -->
+    <section class="subcribe-container px-3 my-5">
+      <!--heading-->
+      <h3>Subcribe For New Product Notification</h3>
+      <!--Input-------->
+      <div class="subcribe-input">
+        <input placeholder="Eample@gmail.com" type="email" />
+        <a class="subcribe-btn" href="#">Send</a>
+      </div>
+    </section>
+
+    <!--footer--------------------->
+    <footer>
+      <h3><img src="../images/logo.png" /></h3>
+      <!--footer-menu---------------->
+      <ul class="footer-menu">
+        <li><a href="../pages/shop.html">Man</a></li>
+        <li><a href="../pages/shop.html">Women</a></li>
+        <li><a href="../pages/shop.html">Jewelery</a></li>
+        <li><a href="../pages/shop.html">Bags</a></li>
+        <li><a href="../pages/shop.html">Watchs</a></li>
+      </ul>
+    </footer>
+    <!--copyright--------------->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link px-2 text-black">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="../pages/shop.html" class="nav-link px-2 text-black"
+              >Shop</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="../pages/news.html" class="nav-link px-2 text-black"
+              >News</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="../pages/contact.html" class="nav-link px-2 text-black"
+              >Contact</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="../pages/about.html" class="nav-link px-2 text-black"
+              >About</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-black">© 2022 Mioshio, Inc</p>
+      </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Connect bootstrap javascript secara online -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

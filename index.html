@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Connect Bootstrap online -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>Shopping Site</title>
+    <!--web-icon------------------->
+    <link href="images/logo.png" rel="shortcut icon" />
+    <!--stylesheet-------------------->
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./css/style-addon.css" />
+    <!--FontAwesome-------->
+    <script
+      crossorigin="anonymous"
+      src="https://kit.fontawesome.com/70a642cd7c.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <button
+          class="btn"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBackdrop"
+          aria-controls="offcanvasWithBackdrop"
+        >
+          <span class="fas fas fa-align-justify"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a
+                class="nav-link js-scroll-trigger font-weight-bold text-dark"
+                href="#trendy-arrivals"
+                >Trendy<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link js-scroll-trigger font-weight-bold text-dark"
+                href="#our-brands"
+                >Our Brands</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link js-scroll-trigger font-weight-bold text-dark"
+                href="#watches-showcase"
+                >Watches</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link js-scroll-trigger font-weight-bold text-dark"
+                href="#our-teams"
+                >Teams</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/logo.png" alt="logo" />
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav bar v2.0 -->
+
+    <div class="offcanvas-container">
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasWithBackdrop"
+        aria-labelledby="offcanvasWithBackdropLabel"
+      >
+        <div class="offcanvas-header">
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="offcanvas-content">
+            <div>
+              <img src="./images/logo.png" alt="" />
+            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="./pages/about.html">About</a></li>
+              <li><a href="./pages/shop.html">Shop</a></li>
+              <li><a href="./pages/news.html">News</a></li>
+              <li><a href="./pages/contact.html">Contact</a></li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- nav bar v2.0 -->
+
+    <!--main-section--------------->
+    <section class="main">
+      <!--img--------->
+      <div class="m-img">
+        <img alt="" src="images/undraw_online_shopping_ga73.svg" />
+      </div>
+
+      <!--text------------>
+      <div class="m-text">
+        <h1>Su<font>mm</font>er</h1>
+        <h2>Collect<font>ion</font></h2>
+        <!--btn------------>
+        <a class="m-btn" href="./pages/shop.html">Details</a>
+      </div>
+      <!--social-------->
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </section>
+
+    <section class="product" id="trendy-arrivals">
+      <!--heading------------>
+      <div class="p-heading">
+        <h3>Trendy <font>Arri</font>vals</h3>
+      </div>
+      <!--product-container----------------->
+      <div class="display-grid">
+        <!-- <div class="display-grid"> -->
+        <!--box-1------------>
+        <div class="p-box">
+          <img alt="1" src="images/b1.png" class="tas" />
+          <!--details--------->
+          <p>Black Genuine Leather Bags.</p>
+          <!--price--->
+          <a class="price" href="#">$23.3</a>
+          <!--buy-btn-->
+          <a class="buy-btn" href="#">Add To Cart</a>
+        </div>
+        <!--box-2------------>
+        <div class="p-box">
+          <img alt="2" src="images/b2.png" class="tas" />
+          <!--details--------->
+          <p>Red Genuine Leather Bags.</p>
+          <!--price--->
+          <a class="price" href="#">$30.3</a>
+          <!--buy-btn-->
+          <a class="buy-btn" href="#">Add To Cart</a>
+        </div>
+        <!--box-3------------>
+        <div class="p-box">
+          <img alt="3" src="images/b3.png" class="tas" />
+          <!--details--------->
+          <p>Dark Blue Genuine Leather Bags.</p>
+          <!--price--->
+          <a class="price" href="#">$13.3</a>
+          <!--buy-btn-->
+          <a class="buy-btn" href="#">Add To Cart</a>
+        </div>
+        <!--box-4------------>
+        <div class="p-box">
+          <img alt="4" src="images/b4.png" class="tas" />
+          <!--details--------->
+          <p>Purple Genuine Leather Bags.</p>
+          <!--price--->
+          <a class="price" href="#">$33.3</a>
+          <!--buy-btn-->
+          <a class="buy-btn" href="#">Add To Cart</a>
+        </div>
+        <!--box-5------------>
+        <div class="p-box">
+          <img alt="5" src="images/b5.png" class="tas" />
+          <!--details--------->
+          <p>Pink Genuine Leather Bags.</p>
+          <!--price--->
+          <a class="price" href="#">$11.3</a>
+          <!--buy-btn-->
+          <a class="buy-btn" href="#">Add To Cart</a>
+        </div>
+        <!--box-6------------>
+        <div class="p-box">
+          <img alt="6" src="images/b6.png" class="tas" />
+          <!--details--------->
+          <p>Light Blue Genuine Leather Bags.</p>
+          <!--price--->
+          <a class="price" href="#">$43.3</a>
+          <!--buy-btn-->
+          <a class="buy-btn" href="#">Add To Cart</a>
+        </div>
+      </div>
+    </section>
+    <!--our-brand-section----------------->
+    <section class="our-brand" id="our-brands">
+      <!--text-->
+      <div class="brand-text">
+        <!--heading-->
+        <h3>Our Brand</h3>
+        <h4>
+          Small Shoes 2020 New Arrivals Mini Messenger
+          <font>Classic Shoes</font>
+        </h4>
+        <!--details-->
+        <p>
+          Classic designs but still fashionable and trendy that we instill in
+          our latest collection. Of course suitable for all circles. With the
+          best quality materials, we are sure you will be satisfied when using
+          our products.
+        </p>
+      </div>
+      <!--img-->
+      <div class="brand-img">
+        <img src="images/mobile.png" class="branding" />
+      </div>
+    </section>
+
+    <!--watches------------------->
+    <section class="product" id="watches-showcase">
+      <!--heading------------>
+      <div class="p-heading">
+        <h3>Watch<font>es Show</font>case</h3>
+      </div>
+      <!--product-container----------------->
+      <div class="display-grid">
+        <!--box-1------------>
+        <div class="p-box">
+          <img alt="1" src="images/w1.png" class="jam" />
+          <!--details--------->
+          <p>Fashion Silver Chain Watch</p>
+          <!--price--->
+          <a class="price" href="#">$23.3</a>
+          <!--buy-btn-->
+          <a class="buy-btn" href="#">Add To Cart</a>
+        </div>
+        <!--box-2------------>
+        <div class="p-box">
+          <img alt="2" src="images/w2.png" class="jam" />
+          <!--details--------->
+          <p>Fashion Genuine Chain Watch</p>
+          <!--price--->
+          <a class="price" href="#">$30.3</a>
+          <!--buy-btn-->
+          <a class="buy-btn" href="#">Add To Cart</a>
+        </div>
+        <!--box-3------------>
+        <div class="p-box">
+          <img alt="3" src="images/w3.png" class="jam" />
+          <!--details--------->
+          <p>Fashion Chain Watch.</p>
+          <!--price--->
+          <a class="price" href="#">$13.3</a>
+          <!--buy-btn-->
+          <a class="buy-btn" href="#">Add To Cart</a>
+        </div>
+        <!--box-4------------>
+        <div class="p-box">
+          <img alt="4" src="images/w4.png" class="jam" />
+          <!--details--------->
+          <p>Fashion Black Chain Watch</p>
+          <!--price--->
+          <a class="price" href="#">$33.3</a>
+          <!--buy-btn-->
+          <a class="buy-btn" href="#">Add To Cart</a>
+        </div>
+        <!--box-5------------>
+        <div class="p-box">
+          <img alt="5" src="images/w5.png" class="jam" />
+          <!--details--------->
+          <p>Fashion Lether Watch</p>
+          <!--price--->
+          <a class="price" href="#">$11.3</a>
+          <!--buy-btn-->
+          <a class="buy-btn" href="#">Add To Cart</a>
+        </div>
+        <!--box-6------------>
+        <div class="p-box">
+          <img alt="6" src="images/w6.png" class="jam" />
+          <!--details--------->
+          <p>Fashion Forign Watch</p>
+          <!--price--->
+          <a class="price" href="#">$43.3</a>
+          <!--buy-btn-->
+          <a class="buy-btn" href="#">Add To Cart</a>
+        </div>
+      </div>
+    </section>
+
+    <!--subscribe------------------------->
+    <section class="subcribe-container">
+      <!--heading-->
+      <h3>Subcribe For New Product Notification</h3>
+      <!--Input-------->
+      <div class="subcribe-input">
+        <input placeholder="Eample@gmail.com" type="email" />
+        <a class="subcribe-btn" href="#">Send</a>
+      </div>
+    </section>
+    <!--footer--------------------->
+    <footer>
+      <h3><img src="images/logo.png" /></h3>
+      <!--footer-menu---------------->
+      <ul class="footer-menu">
+        <li><a href="./pages/shop.html">Man</a></li>
+        <li><a href="./pages/shop.html">Women</a></li>
+        <li><a href="./pages/shop.html">Jewelery</a></li>
+        <li><a href="./pages/shop.html">Bags</a></li>
+        <li><a href="./pages/shop.html">Watchs</a></li>
+      </ul>
+    </footer>
+    <!--copyright--------------->
+    <!--copyright--------------->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link px-2 text-black">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./pages/shop.html" class="nav-link px-2 text-black"
+              >Shop</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./pages/news.html" class="nav-link px-2 text-black"
+              >News</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./pages/contact.html" class="nav-link px-2 text-black"
+              >Contact</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./pages/about.html" class="nav-link px-2 text-black"
+              >About</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-black">© 2022 Mioshio, Inc</p>
+      </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Connect bootstrap javascript secara online -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

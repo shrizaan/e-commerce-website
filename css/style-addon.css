@@ -1,0 +1,93 @@
+.display-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+/* product di index html */
+.product .display-grid {
+  gap: 3rem;
+}
+
+@media (max-width: 768px) {
+  .display-grid {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 543px) {
+  .display-grid {
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+  }
+}
+
+.highlight {
+  color: #f3a20b;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+
+.header {
+  background-position: center;
+  background-color: #f5ebdaf8;
+  box-shadow: 2px 2px 30px rgb(167 158 245 / 20%);
+  min-height: 20vh;
+}
+
+.header img {
+  width: 400px;
+  height: 400px;
+}
+
+.about-content, .why-content, .contact-container, .products-container {
+  background-image: url("../images/poduct bg.png");
+  background-size: 400px;
+  background-position: center;
+}
+
+
+
+.why-content .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.why-content span {
+  color: #f3a20b;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.card {
+  border: none !important;
+}
+
+.card h5 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: .7rem;
+}
+
+.card p {
+  font-size: .9rem;
+  color: #745f5f;
+}
+
+.p-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: initial;
+}
+
+.our-teams, .subcribe-container {
+  background-image: url("../images/poduct bg.png");
+  background-size: 400px;
+  background-position: center;
+}
