@@ -2,6 +2,7 @@
 # E-Commerce Website
 
 This website was created to fulfill the assignment of a web programming practicum course.
+Links: https://kelompok-5-e-commerce.netlify.app/
 
 ## API Reference
 
